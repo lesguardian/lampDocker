@@ -1,4 +1,4 @@
-# lampDocker
+# Instructions d'installation
 
 - Construction du conteneur :
 ```
