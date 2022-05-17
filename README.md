@@ -19,4 +19,4 @@ docker build -t debian-lamp .
 docker run -p 8000:80 debian-lamp
 ```
 
-- Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez ```localhost:8000```
+- Vérifier que l'application est en cours d'exécution. Pour ce faire, ouvrez un navigateur et tapez ```localhost:8000/index.php```
