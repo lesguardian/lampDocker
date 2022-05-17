@@ -12,7 +12,7 @@ RUN  apt-get update && \
 
 RUN mkdir /data
 # Copy files
-COPY start-script.sh /root/
+COPY ./start-script.sh /root/
 COPY ./html /var/www/html
 COPY ./data /data
 
@@ -21,4 +21,5 @@ EXPOSE 3306
 EXPOSE 80
 
 RUN chmod +x /root/start-script.sh 
-CMD /root/start-script.sh
+CMD ["/bin/bash", "/root/start-script.sh"]
+
